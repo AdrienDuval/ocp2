@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;   
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+/* header section */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+.col-1-header img
+{
+    width: 40%;
+}
+.col-1-header
+{
+    outline: 0px solid ;
+}
+ul
+{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+ul li
+{
+    
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 18px;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu #active
+{
+    color:#0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 42%;
+}
+a:active
+{
+    color:#0065FC;
+}
+.col-2-header
+{
+width: 100%;
+}
+.nav-menu #sign-up
+{
+    color:#0065FC;
+    font-weight: bold;
+}
+
+#active::before
+{
+    content: "";
+    border-top: 1px solid black;
+}
+
+.search-container form {display: flex;justify-content: flex-start;align-items: center;}
+
+.search-container i.fas.fa-map-marker-alt {
+    padding: 12px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.search-container input[type="text"] {
+    padding: 16px;
+    border: 1px solid #F2F2F2;
+}
+
+.search-container button {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+::placeholder {
+    color: black;
+    font-size:18px;
+    font-weight: bold;
+  }
+
+  .txt-1 h2
+  {
+      font-size: 30px;
+      margin: 30px 0px 0px 0px;
+  }
+  .txt-1 p
+  {
+      font-size: 16px;
+      margin: 10px 0px 10px 0px;
+  }
+
+  .row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 1%;
+}
+.row-2 h2{
+    font-size: 30px;
+}
+.cat {
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    border: 3px solid #F2F2F2;
+    padding-right: 15px;
+}
+.cat p
+{
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+.row-2 .fas
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 12px;
+    font-size: 19px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    font-size: 23px;
+}
+.row-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.row-3 ::before {
+    margin-right: 15px;
+}
+/* end header section */
+
+
+/* section content */
+.content-1
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content-1 .col-1-content
+{
+    width:72%;
+    padding: 0% 3% 0% 3%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.content-1 .col-2-content
+{
+    outline: 1px solid;
+   width: 25%;
+}
+.col-1-content .content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.content img
+{
+   
+   width: 100%;
+    height: 9vw;
+    object-fit: cover;
+   border-radius: 7% 7% 0% 0%;
+}
+
+.img-1 {
+ 
+    background-color: white;
+    border-radius: 7%;
+    padding: 6px;
+    width: 30%;
+    margin-bottom: 4%;
+}
+.text-img {
+    margin: 13px;
+    background-color: white;
+}
+.text-img h3 {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.text-img p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.checked {
+    color: #0065FC!important;
+}
+span.fa.fa-star {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+.img-1{
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.192);
+ }
+
+ h3#most-popular {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
+}
+/* end section content */
